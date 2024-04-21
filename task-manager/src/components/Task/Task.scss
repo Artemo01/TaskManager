@@ -1,0 +1,52 @@
+.task-container {
+  width: 300px;
+  height: 200px;
+  background-color: #484848;
+  color: whitesmoke;
+
+  .task-edit-icon {
+    visibility: hidden;
+    cursor: pointer;
+  }
+}
+
+.task-container:hover {
+  .task-edit-icon {
+    visibility: visible;
+  }
+}
+
+.task-complete-button {
+  padding: 1px 10px;
+  width: max-content;
+  border-radius: 20px;
+  cursor: pointer;
+
+  &__complete {
+    @extend .task-complete-button;
+    background-color: #5dbb63;
+  }
+
+  &__completed {
+    @extend .task-complete-button;
+    background-color: #e55451;
+  }
+}
+
+.task-important-icon {
+  fill: #eedf59;
+}
+
+.task-title {
+  width: 90%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.task-description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

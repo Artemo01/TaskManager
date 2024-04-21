@@ -1,0 +1,39 @@
+.tasks-container-wrapper {
+  background-color: #262626;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  color: whitesmoke;
+}
+
+.tasks-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.add-task-card {
+  display: flex;
+  width: 300px;
+  height: 200px;
+  color: #484848;
+  border: 2px dashed #484848;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.add-task-card:hover {
+  color: whitesmoke;
+  background-color: #6b6b6b;
+  cursor: pointer;
+}
+
+.filter-icon {
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}

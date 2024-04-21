@@ -1,0 +1,21 @@
+.card-container {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #484848;
+}
+
+.custom-modal {
+  .modal-content {
+    background-color: #484848;
+    color: white;
+    border: 1px solid #484848;
+    border-radius: 10px;
+  }
+}
+
+.error-modal {
+  .modal-content {
+    background-color: #484848;
+    color: white;
+  }
+}
